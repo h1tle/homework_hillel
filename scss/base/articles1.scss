@@ -1,0 +1,85 @@
+.article {
+  &__body {
+  }
+
+  &__title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  &__main {
+  }
+
+  &__subtitle {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+
+  &__link {
+    color: #ece89d;
+  }
+
+  &__descr {
+    p {
+      margin: 1em 0;
+      &::first-letter {
+        color: red;
+        font-family: "Griffy";
+        font-size: 50px;
+      }
+    }
+  }
+}
+.comments {
+  .comments {
+    &__body {
+      border: 0.1rem solid #ece89d;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    &__title {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    &__link {
+      position: relative;
+      font-size: 1.5rem;
+      margin-top: 20px;
+      padding-left: 35px;
+      a {
+        color: #ece89d;
+        &::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background-image: url("../../img/user_male2-25.png");
+          background-repeat: no-repeat;
+        }
+      }
+    }
+
+    &__text {
+      padding: 10px 0px;
+      font-size: 1.5rem;
+    }
+
+    &__reply {
+      color: #ece89d;
+    }
+
+    &__answer {
+      text-align: right;
+      font-size: 20px;
+    }
+    &__quote {
+      color: #ece89d;
+    }
+  }
+}

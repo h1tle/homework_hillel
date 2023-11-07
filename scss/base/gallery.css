@@ -1,0 +1,37 @@
+.gallery__title {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.gallery__row {
+  margin-top: 200px;
+  display: flex;
+  flex: 1 1 33.333%;
+  gap: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.gallery__img {
+  max-width: 300px;
+  margin: 10px;
+  border: 5px solid #ece89d;
+  padding: 5px;
+}
+.gallery__img:hover {
+  border: 5px solid transparent;
+}
+.gallery__slide {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.gallery__link a {
+  font-size: 18px;
+  color: #ece89d;
+}
+.gallery__a {
+  color: red;
+  display: block;
+}/*# sourceMappingURL=gallery.css.map */

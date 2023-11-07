@@ -1,0 +1,54 @@
+.registration__title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.form__item {
+  color: #086fa1;
+  font-size: 20px;
+}
+.form__label {
+  display: block;
+  padding-bottom: 5px;
+}
+.form__kitchen {
+  padding-bottom: 20px;
+}
+.form__kitchen p {
+  margin-left: 50px;
+}
+.form__gender {
+  margin-bottom: 10px;
+}
+.form__checkbox:hover {
+  display: inline-block;
+  border: 5px solid #000;
+}
+.form__button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form__checkbox {
+  font-size: 50px;
+}
+.form__checkbox :hover {
+  color: red;
+  font-size: 50px;
+  padding: 1000px;
+  margin: 1000px;
+}
+.form__sex {
+  margin-bottom: 10px;
+}
+.form__sex:hover {
+  padding: 10px;
+  border: 1px dashed #000;
+}
+.form__food {
+  margin-bottom: 10px;
+}
+.form__food:hover {
+  padding: 10px;
+  border: 1px dashed #000;
+}/*# sourceMappingURL=registration.css.map */

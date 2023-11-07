@@ -1,0 +1,169 @@
+.registration {
+  &__title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  &__body {
+  }
+
+  &__main {
+  }
+}
+.contacts {
+  &__form {
+  }
+}
+.form {
+  &__item {
+    color: #086fa1;
+    font-size: 20px;
+  }
+
+  &__label {
+    display: block;
+    padding-bottom: 5px;
+  }
+
+  &__input {
+  }
+
+  &__date {
+  }
+
+  &__kitchen {
+    padding-bottom: 20px;
+    p {
+      margin-left: 50px;
+    }
+  }
+
+  &__gender {
+    margin-bottom: 10px;
+  }
+
+  &__info {
+  }
+  &__checkbox {
+    &:hover {
+      display: inline-block;
+      border: 5px solid #000;
+    }
+  }
+  &__textarea {
+  }
+
+  &__button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  &__input {
+  }
+}
+
+.footer {
+  &__text {
+  }
+}
+.wrapper {
+}
+.header {
+  &__body {
+  }
+
+  &__menu {
+  }
+}
+.container {
+}
+.menu {
+  &__body {
+  }
+
+  &__list {
+  }
+
+  &__item {
+  }
+
+  &__link {
+  }
+}
+.active {
+}
+.registration {
+  &__title {
+  }
+
+  &__body {
+  }
+
+  &__main {
+  }
+}
+.contacts {
+  &__form {
+  }
+}
+.form {
+  &__item {
+  }
+
+  &__label {
+  }
+
+  &__input {
+  }
+
+  &__date {
+  }
+
+  &__kitchen {
+  }
+
+  &__checkbox {
+    font-size: 50px;
+    :hover {
+      color: red;
+      font-size: 50px;
+      padding: 1000px;
+      margin: 1000px;
+    }
+  }
+
+  &__gender {
+  }
+
+  &__sex {
+    margin-bottom: 10px;
+    &:hover {
+      padding: 10px;
+      border: 1px dashed #000;
+    }
+  }
+
+  &__info {
+  }
+
+  &__textarea {
+  }
+
+  &__button {
+  }
+
+  &__kitchen {
+  }
+
+  &__food {
+    margin-bottom: 10px;
+    &:hover {
+      padding: 10px;
+      border: 1px dashed #000;
+    }
+  }
+
+  &__list {
+  }
+}

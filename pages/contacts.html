@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="../scss/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__body">
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="../index.html" class="menu__link">MAIN PAGE</a></li>
+                <li class="menu__item"><a href="articles.html" class="menu__link">Articles</a></li>
+                <li class="menu__item"><a href="catalog.html" class="menu__link">Catalog</a></li>
+                <li class="menu__item active"><a href="contacts.html" class="menu__link">Contacts</a></li>
+                <li class="menu__item"><a href="gallery.html" class="menu__link">Gallery</a></li>
+                <li class="menu__item"><a href="page-nav.html" class="menu__link">Page-nav</a></li>
+                <li class="menu__item"><a href="registration.html" class="menu__link">Registration</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="contacts">
+      <div class="container">
+        <h2 class="contacts__title">Contacts</h2>
+        <div class="contacts__body">
+          <iframe class="contacts__map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2565.0549316946576!2d36.23183137653016!3d49.991579571508204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0f1b04aa383%3A0x95193f4aa08177cb!2z0KLQoNCmIE5JS09MU0tZ!5e0!3m2!1sru!2snl!4v1698407534702!5m2!1sru!2snl"
+            width="600" height="450"></iframe>
+          <p class="contacts__addres">Вулиця Пушкінська, 2а, Харків, Харківська область, Украина, 61000</p>
+          <form action="https://tests.fomenko.top/echo/index.php" id="form" method="get">
+            <h2 class="contacts__info">Contact Info:</h2>
+            <fieldset class="contacts__form form">
+              <div class="form__item">
+                <label for="forsurname" class="form__label">Surname:</label>
+                <input id="forsurname" type="text" name="surname" class="form__input">
+              </div>
+              <div class="form__item">
+                <label for="formname" class="form__label">Name:</label>
+                <input id="formname" type="text" name="name" class="form__input">
+              </div>
+              <div class="form__item">
+                <label for="formemail" class="form__label">Email:</label>
+                <input id="formemail" type="email" name="email" class="form__input">
+              </div>
+              <div class="form__item">
+                <div class="form__info">Info:</div>
+                <textarea class="form__textarea" id="forminfo" placeholder="Info about yourself" name="forminfo"
+                  cols="20" rows="5"></textarea>
+              </div>
+              <button type="submit" class="form__button">Send</button>
+              <button type="reset" class="form__button">Reset</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__text">&copy;Denys Shukhat</div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

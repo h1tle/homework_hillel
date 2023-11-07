@@ -1,0 +1,94 @@
+//--------------------------------------------//
+@import url(./null.css);
+@import url(base/mainpage.css);
+@import url(base/articles.css);
+@import url(base/articles1.css);
+@import url(base/catalog.css);
+@import url(base/contacts.css);
+@import url(base/gallery.css);
+@import url(base/registration.css);
+@import url(base/page-nav.css);
+//-------------------------------------------//
+@import url(https://fonts.googleapis.com/css?family=Geologica:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Griffy:regular);
+
+//-------------------------------------------//
+body {
+  font-family: "Geologica";
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+//-------------------------------------------//
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #ece89d;
+  &__body {
+  }
+
+  &__menu {
+  }
+}
+.menu {
+  &__body {
+  }
+
+  &__list {
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+    :hover {
+      background-color: #5e5373;
+      text-decoration: underline;
+      color: white;
+      transition: all 0.5s ease 0s;
+      transform: scale(1.1);
+    }
+  }
+
+  &__item {
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s;
+    border: 2px solid #5e5373;
+    background-color: white;
+  }
+
+  &__link {
+  }
+}
+//-------------------------------------------//
+main {
+  flex: 1 1 auto;
+  background: url("../img/panda.jpg") 100% 100px /300px no-repeat,
+    url("../img/bg.jpg") 100% / cover no-repeat;
+  color: white;
+  padding-top: 100px;
+}
+//-------------------------------------------//
+.active {
+  border-radius: 5px;
+  background-color: #5e5373;
+  color: white;
+  a {
+    color: white;
+  }
+}
+.footer {
+  background-color: #ece89d;
+  text-align: center;
+}
+//-------------------------------------------//

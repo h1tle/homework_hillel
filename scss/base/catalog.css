@@ -1,0 +1,68 @@
+.catalog__row {
+  display: flex;
+}
+.catalog__body {
+  padding: 50px;
+  text-align: center;
+  flex: 0 1 33%;
+  background-color: #ece89d;
+  margin-bottom: 50px;
+  border: 5px solid black;
+  margin-left: 15px;
+}
+.catalog__title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+.catalog__subtitle {
+  position: relative;
+  background-color: #5e5373;
+  border: 5px solid black;
+  border-bottom: none;
+  font-size: 40px;
+  padding: 5px;
+}
+.catalog__subtitle::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 5px;
+  left: 15px;
+  background-image: url("../../img/delivery-32.png");
+  background-repeat: no-repeat;
+}
+.catalog__list {
+  border: 5px solid black;
+  text-align: left;
+  background-color: white;
+  padding: 25px;
+}
+.catalog__list li::before {
+  content: "";
+  background-image: url(../../img/home-32.png);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 30px;
+  display: inline-block;
+  padding-top: 5px;
+}
+.catalog__item {
+  padding-bottom: 15px;
+  font-size: 20px;
+  color: grey;
+}
+.catalog__item:last-child {
+  padding-bottom: 0px;
+}
+
+.new::after {
+  content: "new";
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  margin-left: 5px;
+}/*# sourceMappingURL=catalog.css.map */
