@@ -28,6 +28,9 @@
   border: 4px solid #000;
   border-radius: 10px;
 }
+.form__name::first-letter {
+  text-transform: capitalize;
+}
 .form__item {
   padding-bottom: 20px;
 }
@@ -59,4 +62,8 @@
   padding: 10px;
   width: 100%;
   border: 1px solid #000;
+}
+
+.cap {
+  text-transform: capitalize;
 }/*# sourceMappingURL=contacts.css.map */
