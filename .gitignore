@@ -1,4 +1,11 @@
+# Игнорировать папку node_modules
 node_modules/
+
+# Игнорировать папку .idea
 .idea/
+
+# Игнорировать папку .vscode
 .vscode/
+
+# Игнорировать файл .DS_Store
 .DS_Store
