@@ -1,45 +1,22 @@
 @import url(./null.css);
-// .main {
-//   max-width: 90%;
-// }
-// .container {
-// }
-// .table {
-//   max-width: 75%;
-//   &__title {
-//   }
-
-//   &__body {
-//   }
-
-//   &__row {
-//   }
-
-//   &__item {
-//     width: 33%;
-//     height: 50px;
-//   }
-// }
-// .rowspan3 {
-// }
-// .colspan2 {
-//   height: 200px;
-// }
-// .main {
-// }
-// .container {
-// }
 table {
-  width: 100%;
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto;
   border-collapse: collapse;
 }
 td {
   border: 1px solid gray;
   height: 50px;
-  width: 33.33%;
-  padding: 20px;
+  width: 33.333%;
+}
+// .table1 td {
+//   width: 33.333%;
+// }
+.table1 {
+  width: 75%;
+}
+.table2 td {
+  width: 28%;
 }
 .header {
   a {
@@ -52,6 +29,7 @@ td {
   }
 }
 .main {
+  max-width: 1280px;
   margin: 0 auto;
   width: 90%;
 }
