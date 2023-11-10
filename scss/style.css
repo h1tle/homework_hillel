@@ -1,0 +1,68 @@
+@import url(./null.css);
+table {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid gray;
+  height: 50px;
+  width: 33.33%;
+  padding: 20px;
+}
+
+.header a {
+  display: block;
+  padding: 50px;
+  color: #5e5373;
+  font-size: 24px;
+}
+.main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.w90 {
+  width: 90%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+.w60 {
+  width: 60%;
+}
+
+.w28 {
+  width: 28%;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w33 {
+  width: 33%;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.title {
+  font-size: 25px;
+  margin: 20px 0px;
+}
+
+.colspan2 {
+  height: 200px;
+}/*# sourceMappingURL=style.css.map */

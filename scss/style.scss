@@ -1,0 +1,90 @@
+@import url(./null.css);
+// .main {
+//   max-width: 90%;
+// }
+// .container {
+// }
+// .table {
+//   max-width: 75%;
+//   &__title {
+//   }
+
+//   &__body {
+//   }
+
+//   &__row {
+//   }
+
+//   &__item {
+//     width: 33%;
+//     height: 50px;
+//   }
+// }
+// .rowspan3 {
+// }
+// .colspan2 {
+//   height: 200px;
+// }
+// .main {
+// }
+// .container {
+// }
+table {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid gray;
+  height: 50px;
+  width: 33.33%;
+  padding: 20px;
+}
+.header {
+  a {
+    display: block;
+    padding: 50px;
+    color: #5e5373;
+    font-size: 24px;
+  }
+  &__link {
+  }
+}
+.main {
+  margin: 0 auto;
+  width: 90%;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.w90 {
+  width: 90%;
+}
+.w40 {
+  width: 40%;
+}
+.w60 {
+  width: 60%;
+}
+.w28 {
+  width: 28%;
+}
+.w80 {
+  width: 80%;
+}
+.w33 {
+  width: 33%;
+}
+.h200 {
+  height: 200px;
+}
+.title {
+  font-size: 25px;
+  margin: 20px 0px;
+}
+.colspan2 {
+  height: 200px;
+}
