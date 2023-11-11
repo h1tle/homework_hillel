@@ -75,15 +75,6 @@ td {
   height: 50px;
   width: 33.333%;
 }
-// .table1 td {
-//   width: 33.333%;
-// }
-.table1 {
-  width: 75%;
-}
-.table2 td {
-  width: 28%;
-}
 .header {
   a {
     display: block;
@@ -95,9 +86,7 @@ td {
   }
 }
 .main {
-  max-width: 1280px;
   margin: 0 auto;
-  width: 90%;
 }
 .container {
   max-width: 1280px;
@@ -128,7 +117,4 @@ td {
 .title {
   font-size: 25px;
   margin: 20px 0px;
-}
-.colspan2 {
-  height: 200px;
 }
